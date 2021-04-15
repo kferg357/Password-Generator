@@ -19,6 +19,16 @@ generateBtn.addEventListener("click", writePassword);
 //console.log('Hello')
 function generatePassword(){
   var password = 'Kenneth'
+  //ask question about length 
+  //ask question about upper characters
+  //ask question about lower characters
+  //..other questions
+  //do something based on response to length question
+  //do something based on response to upper characters
+  //...other questions
+
+
+
   // var lowerCaseLetters = 'asdked' 
   // var numbers = '1234567789'
   // var selectedCharacters = ''
@@ -44,6 +54,8 @@ function generatePassword(){
   //   console.log(selectedCharacters)
 
   // }
+
+  //returnpasswored value 
   return password
 }
 
