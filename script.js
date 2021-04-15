@@ -1,9 +1,9 @@
 // Assignment Code
-var generateBtn = document.querySelector("#generate");
+var generateBtn = document.querySelector("generate");
 
 // Write password to the #password input
 function writePassword() {
-  var password = generatePassword();
+  var password = generatePassword(lowerCaseLetters);
   var passwordText = document.querySelector("#password");
 
   passwordText.value = password;
@@ -14,19 +14,17 @@ function writePassword() {
 generateBtn.addEventListener("click", writePassword);
  //some way for a user to input the desired length of the password
 
-var num = prompt('How many characters do you want')
-console.log(num)
 
 
-//hello
+//console.log('Hello')
 
 var lowerCaseLetters = 'asdked'
 var numbers = '1234567789'
 var selectedCharacters = ''
 console.log
 //verify the user is typing in a valid value (numbers between 0-128)
-
-
+var num = prompt('How many characters do you want')
+console.log(num)
 
 // some way for the user to select the type of characters they t
 var lowercase = confrim('Do you want to include lowercase letters')
@@ -46,14 +44,7 @@ if(lowercase === true){
 
 }
 
-...// select a raondom value from selected characters
-  
-}
-var string
 
-for (var i=0; i< i++) var0++) {
-  //select a random value
-  console.log(i)
   
 }
 
