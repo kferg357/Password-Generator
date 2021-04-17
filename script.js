@@ -81,6 +81,8 @@ var selectedCharacters = ''
     var character = selectedCharacters[characterIndex];
    
 
+
+
     password = password + character
   }
   //returnpasswored value 
