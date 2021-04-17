@@ -68,7 +68,7 @@ var selectedCharacters = ''
   // Continue with next propmts
   var selectedSpecial = confirm ('Would you like special characters')
     console.log(selectedSpecial);
-  if(selectedSpecialCharacters === true) {
+  if(selectedSpecial === true) {
     // Add the Character set to our VALID password character pool
     selectedCharacters = selectedCharacters + selectedSpecialCharacters;
     console.log(selectedCharacters);
